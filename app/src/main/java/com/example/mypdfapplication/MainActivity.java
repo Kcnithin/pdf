@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
                     + "/" + "adraj_pdf.pdf");*/
          /*   ContextWrapper cw = new ContextWrapper(getApplicationContext());
             File directory = cw.getCacheDir();*/
-            File futureStudioIconFile = new File(getCacheDir(), fileName);
+            java.io.File  futureStudioIconFile = new java.io.File(getCacheDir(), fileName);
             InputStream inputStream = null;
             OutputStream outputStream = null;
            // futureStudioIconFile.mkdirs();
